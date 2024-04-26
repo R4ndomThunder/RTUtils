@@ -1,0 +1,22 @@
+{
+  "name": "com.r4ndomthunder.rtutils",
+  "version": "1.0.0",
+  "displayName": "RTUtils",
+  "description": "A random utility package",
+  "unity": "2018.1",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "keywords": [],
+  "samples": [
+    {
+      "displayName": "Sample1",
+      "description": "A fantastic sample",
+      "path": "Samples~/Sample1"
+    }
+  ],
+  "author": {
+    "name": "Samuele Padalino",
+    "url": "https://samuelepadalino.dev"
+  }
+}
