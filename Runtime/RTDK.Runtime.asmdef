@@ -1,6 +1,6 @@
 {
-    "name": "RTUtilsRuntime",
-    "rootNamespace": "RTUtils",
+    "name": "RTDK.Runtime",
+    "rootNamespace": "RTDK",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

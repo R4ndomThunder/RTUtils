@@ -1,1 +1,2 @@
-An useful package with a lot of utils!
+# R4ndomThunder's DevKit for Unity
+A package of utilities to speedup the development in Unity
