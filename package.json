@@ -1,24 +1,32 @@
 {
   "name": "com.r4ndomthunder.rtdk",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "displayName": "R4ndomThunder's DevKit",
   "description": "A package of utilities to speedup the development in Unity",
   "unity": "2018.1",
   "dependencies": {
     "com.unity.textmeshpro": "3.0.6",
-    "com.unity.inputsystem": "1.7.0"
+    "com.unity.inputsystem": "1.7.0",
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
   },
-  "keywords": [],
+  "keywords": [
+    "editor",
+    "tools",
+    "utility",
+    "utilities",
+    "devkit",
+    "toolkit"
+  ],
   "samples": [
     {
-      "displayName": "Developer Console",
-      "description": "A sample of the Developer Console",
-      "path": "Samples~/DeveloperConsole"
+      "displayName": "Interactions Sample",
+      "description": "Shows how to implement the interaction system.",
+      "path": "Samples~/InteractionSample"
     },
     {
-      "displayName": "UI Loader",
-      "description": "A sample of the runtime UI scene loading",
-      "path": "Samples~/UIScene"
+      "displayName": "Developer Console",
+      "description": "Developer console implementation sample.",
+      "path": "Samples~/DeveloperConsole"
     }
   ],
   "author": {
