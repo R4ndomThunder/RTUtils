@@ -1,22 +1,36 @@
 {
-  "name": "com.r4ndomthunder.rtutils",
+  "name": "com.r4ndomthunder.rtdk",
   "version": "1.0.0",
-  "displayName": "RTUtils",
-  "description": "A random utility package",
+  "displayName": "R4ndomThunder's DevKit",
+  "description": "A package of utilities to speedup the development in Unity",
   "unity": "2018.1",
   "dependencies": {
-    "com.unity.textmeshpro": "3.0.6"
+    "com.unity.textmeshpro": "3.0.6",
+    "com.unity.inputsystem": "1.7.0",
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
   },
-  "keywords": [],
+  "keywords": [
+    "editor",
+    "tools",
+    "utility",
+    "utilities",
+    "devkit",
+    "toolkit"
+  ],
   "samples": [
     {
-      "displayName": "Sample1",
-      "description": "A fantastic sample",
-      "path": "Samples~/Sample1"
+      "displayName": "Interactions Sample",
+      "description": "Shows how to implement the interaction system.",
+      "path": "Samples~/InteractionSample"
+    },
+    {
+      "displayName": "Developer Console",
+      "description": "Developer console implementation sample.",
+      "path": "Samples~/DeveloperConsole"
     }
   ],
   "author": {
-    "name": "Samuele Padalino",
+    "name": "Samuele Padalino @R4ndomThunder",
     "url": "https://samuelepadalino.dev"
   }
 }

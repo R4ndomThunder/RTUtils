@@ -1,0 +1,16 @@
+{
+    "name": "RTDK.LoadingScreen",
+    "rootNamespace": "RTDK.LoadingScreen",
+    "references": [
+        "GUID:d75a3b5c1e6e4754f89779d10e9ff407"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+    "name": "RTDK.Editor.Toolbox",
+    "rootNamespace": "RTDK.Editor.Toolbox",
+    "references": [
+        "GUID:9c5965bf9c57158428b463d64a28d9c3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

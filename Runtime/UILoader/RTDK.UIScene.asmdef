@@ -1,0 +1,16 @@
+{
+    "name": "RTDK.UIScene",
+    "rootNamespace": "RTDK.UIScene",
+    "references": [
+        "GUID:34c411ecc3f32eb4da8505bb500c01b7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
