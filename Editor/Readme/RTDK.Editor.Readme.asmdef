@@ -1,0 +1,14 @@
+{
+    "name": "RTDK.Editor.Readme",
+    "rootNamespace": "RTDK.Editor.Readme",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

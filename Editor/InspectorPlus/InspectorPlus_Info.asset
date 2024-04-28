@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969c498958d0fdf49ab2a7fed34041d3, type: 3}
+  m_Name: InspectorPlus_Info
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  title: Inspector+
+  prevReadme: {fileID: 11400000, guid: c3d0c9fee6a0fdd488330d4891fee109, type: 2}
+  nextReadme: {fileID: 11400000, guid: 789b65740c7cc39429a9bfef2b06c41d, type: 2}
+  sections:
+  - name: Header -About thi...
+    heading: About this component
+    text: '<b>Inspector+</b> adds some extra editor attributes to your project to
+      easily customize your editors without having to write any editor code.
+
+
+      It
+      adds attributes like:
+
+      - Buttons for methods
+
+      - ReadOnly fields
+
+      -
+      Color and personalization for your inspector
+
+      - And more'
+    linkText: 
+    url: 
+  isRoot: 0

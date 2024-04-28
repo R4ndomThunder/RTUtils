@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969c498958d0fdf49ab2a7fed34041d3, type: 3}
+  m_Name: Readme_Info
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  title: Readme
+  prevReadme: {fileID: 11400000, guid: da5c0af644d7e2c4e9fb8dc7a85eed22, type: 2}
+  nextReadme: {fileID: 11400000, guid: ee6d92107a5da84449cae09c348081d1, type: 2}
+  sections:
+  - name: Header -About thi...
+    heading: About this component
+    text: This is a simple system that allows you to add Readme in asset format to
+      the project and scene objects.
+    linkText: 
+    url: 
+  - name: Header -How it works
+    heading: How it works
+    text: "To create a Readme file: \n\n1 - <b>Right Click</b> in <b>Project</b>
+      view\r\n\r\n2 - Select: <b>Create => Readme</b>, in the context menu.\r\n\r\n3
+      - A Readme file will be created in the selected folder"
+    linkText: 
+    url: 
+  - name: Header -Add It to...
+    heading: Add It to Scene
+    text: '1 - Create a readme in advance, following the previous tips.
+
+      
+
+      2
+      - Select some GameObject at Scene and add the componnent (Readme);
+
+      
+
+      3
+      - At the component, select the Readme file to show.
+
+      
+
+      4 - Uncheck
+      the <b>Change Readme File</b> box.
+
+      
+
+      5 - Check <b>Change Readme
+      File</b>, if you want change the readme reference of this component.'
+    linkText: 
+    url: 
+  - name: Header -Setup a r...
+    heading: Setup a root Readme
+    text: "A root Readme is a file that will be showed every time you launch the
+      project. \n\nTo do so you have to check <b>Set as Root</b> in your Readme file "
+    linkText: 
+    url: 
+  isRoot: 0

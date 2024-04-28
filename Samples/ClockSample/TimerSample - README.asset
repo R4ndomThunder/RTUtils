@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969c498958d0fdf49ab2a7fed34041d3, type: 3}
+  m_Name: TimerSample - README
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: e154cef389f0a604cb0fa545ec176faa, type: 3}
+  title: Timer Sample
+  prevReadme: {fileID: 0}
+  nextReadme: {fileID: 0}
+  sections:
+  - name: Header -Explanation
+    heading: Explanation
+    text: This example is a simple screen clock, that starts with the scene.
+    linkText: 
+    url: 
+  - name: Header -Clock.cs
+    heading: Clock.cs
+    text: 'Extends <b>TimerBase.cs</b> and handles all the logic of this example:
+
+
+      -
+      Increment/Decrement the time
+
+      - Start/Pause/Stop the time'
+    linkText: 
+    url: 
+  - name: Header -ClockUI.cs
+    heading: ClockUI.cs
+    text: 'Extends <b>TimerUIBase.cs</b> and handles all the UI login of this example:
+
+
+      -
+      Get the time from the referenced <b>TimerBase</b>
+
+      - Parse the time taken
+      into a TimeSpan
+
+      - Parse the TimeSpan into a string to show in TextMeshPro'
+    linkText: 
+    url: 
+  isRoot: 0

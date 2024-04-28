@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969c498958d0fdf49ab2a7fed34041d3, type: 3}
+  m_Name: RTDK_Info
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  title: RTDK - R4ndomThunder's DevKit
+  prevReadme: {fileID: 0}
+  nextReadme: {fileID: 11400000, guid: c3d0c9fee6a0fdd488330d4891fee109, type: 2}
+  sections:
+  - name: Header -About thi...
+    heading: About this package
+    text: 'This package is a set of components, systems and utilities to speedup
+      and simplify the development process in Unity.
+
+
+      Created by'
+    linkText: Samuele Padalino
+    url: https://samuelepadalino.dev
+  - name: Header -Components
+    heading: Components
+    text: "This package contains: \n\n- Readme\n- Inspector+\n- Developer Console\n-
+      Interaction System\n- Loading Screen\n- Main Menu\n- Settings Menu\n- Save
+      System\n- Timer System\n- UI Loader\n- Utilities\n\nTo know more about every
+      components press <b>Next</b>"
+    linkText: 
+    url: 
+  isRoot: 1

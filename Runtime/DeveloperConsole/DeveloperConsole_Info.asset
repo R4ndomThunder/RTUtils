@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969c498958d0fdf49ab2a7fed34041d3, type: 3}
+  m_Name: DeveloperConsole_Info
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  title: Developer Console
+  prevReadme: {fileID: 11400000, guid: ee6d92107a5da84449cae09c348081d1, type: 2}
+  nextReadme: {fileID: 0}
+  sections:
+  - name: Header -About thi...
+    heading: About this component
+    text: <b>Developer Console</b> adds a plug n play console in which you can add
+      your custom commands to improve the testing of your game
+    linkText: 
+    url: 
+  - name: Header -Create a ...
+    heading: Create a command
+    text: 'To create a command you have to create your scriptable object class that
+      have to extends the base class <b>ConsoleCommand</b>.
+
+
+      In the override
+      of <b>Process</b> method you have to declare the logic of the command
+
+
+      Look
+      at the example <b>Developer Console Sample</b> to see the implementation of
+      a custom command'
+    linkText: 
+    url: 
+  isRoot: 0

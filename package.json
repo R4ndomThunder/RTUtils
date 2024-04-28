@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "displayName": "R4ndomThunder's DevKit",
   "description": "A package of utilities to speedup the development in Unity",
-  "unity": "2018.1",
+  "unity": "2020.1",
   "dependencies": {
-    "com.unity.textmeshpro": "3.0.6",
-    "com.unity.inputsystem": "1.7.0",
-    "com.unity.nuget.newtonsoft-json": "3.2.1"
+    "com.unity.textmeshpro": "3.0.0",
+    "com.unity.inputsystem": "1.0.0",
+    "com.unity.nuget.newtonsoft-json": "3.0.0"
   },
   "keywords": [
     "editor",
@@ -24,9 +24,14 @@
       "path": "Samples~/InteractionSample"
     },
     {
-      "displayName": "Developer Console",
-      "description": "Developer console implementation sample.",
-      "path": "Samples~/DeveloperConsole"
+      "displayName": "Developer Console Sample",
+      "description": "Shows how setup a Developer Console in your scene.",
+      "path": "Samples~/DeveloperConsoleSample"
+    },
+    {
+      "displayName": "Timer Sample",
+      "description": "Shows how to implement the timer system as a Clock.",
+      "path": "Samples~/ClockSample"
     }
   ],
   "author": {
