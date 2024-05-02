@@ -32,6 +32,11 @@
       "displayName": "Timer Sample",
       "description": "Shows how to implement the timer system as a Clock.",
       "path": "Samples~/ClockSample"
+    },
+    {
+      "displayName": "Inspector+ Sample",
+      "description": "Shows how the attributes of Inspector+ packages looks like.",
+      "path": "Samples~/InspectorPlusSample"
     }
   ],
   "author": {
