@@ -5,8 +5,6 @@
 *   https://samuelepadalino.dev
 */
 
-using UnityEngine;
-
 namespace RTDK.Utility
 {
     public static class Utils

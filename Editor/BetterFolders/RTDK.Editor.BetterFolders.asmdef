@@ -1,0 +1,14 @@
+{
+    "name": "RTDK.Editor.BetterFolders",
+    "rootNamespace": "RTDK.Editor.BetterFolders",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

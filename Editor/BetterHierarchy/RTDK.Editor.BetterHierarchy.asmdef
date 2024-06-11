@@ -1,0 +1,14 @@
+{
+    "name": "RTDK.Editor.BetterHierarchy",
+    "rootNamespace": "RTDK.Editor.BetterHierarchy",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -28,10 +28,10 @@ MonoBehaviour:
     url: https://samuelepadalino.dev
   - name: Header -Components
     heading: Components
-    text: "This package contains: \n\n- Readme\n- Inspector+\n- Developer Console\n-
-      Interaction System\n- Loading Screen\n- Main Menu\n- Settings Menu\n- Save
-      System\n- Timer System\n- UI Loader\n- Utilities\n\nTo know more about every
-      components press <b>Next</b>"
+    text: "This package contains: \n\n- Readme\n- Inspector+\n- Better Hierarchy\n-
+      Developer Console\n- Interaction System\n- Loading Screen\n- Main Menu\n- Settings
+      Menu\n- Save System\n- Timer System\n- UI Loader\n- Utilities\n\nTo know more
+      about every components press <b>Next</b>"
     linkText: 
     url: 
   isRoot: 1

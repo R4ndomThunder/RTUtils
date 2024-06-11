@@ -12,9 +12,6 @@ using UnityEngine.InputSystem;
 
 namespace RTDK.MainMenu
 {
-    /// <summary>
-    /// 
-    /// </summary>
     public class MainMenuBase : MonoBehaviour
     {
         [SerializeField]
@@ -52,7 +49,12 @@ namespace RTDK.MainMenu
 
         internal virtual void ShowQuitModal()
         {
-            //Not Implemented
+            QuitBtn();
+        }
+
+        internal virtual void OpenURL(string url)
+        {
+            Application.OpenURL(url);
         }
 
         internal virtual void CloseView()
