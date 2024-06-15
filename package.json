@@ -29,6 +29,11 @@
       "path": "Samples~/DeveloperConsoleSample"
     },
     {
+      "displayName": "Main Menu Sample",
+      "description": "Shows how setup the main menu and the settings menu in your scene.",
+      "path": "Samples~/MainMenuSample"
+    },
+    {
       "displayName": "Timer Sample",
       "description": "Shows how to implement the timer system as a Clock.",
       "path": "Samples~/ClockSample"

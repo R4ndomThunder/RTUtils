@@ -12,56 +12,64 @@ using UnityEngine.InputSystem;
 
 namespace RTDK.MainMenu
 {
-    public class MainMenuBase : MonoBehaviour
+    public abstract class MainMenuBase : MonoBehaviour
     {
         [SerializeField]
         internal InputActionReference backButton;
 
         [SerializeField]
-        internal List<GameObject> views = new();
+        internal List<MenuViewBase> views = new();
 
         [SerializeField]
-        internal Stack<GameObject> visitedViews = new();
+        internal Stack<MenuViewBase> visitedViews = new();
 
         private void OnCancel(InputAction.CallbackContext context)
         {
             if (!context.action.WasPressedThisFrame()) return;
-
+            Cancel();
             CloseView();
         }
 
-        void Start()
+        public virtual void Start()
         {
             backButton.action.performed += OnCancel;
-            OpenView(views.First());
+            OpenView(views.FirstOrDefault());
         }
 
-        private void OnDestroy()
+        public virtual void OnDestroy()
         {
             backButton.action.performed -= OnCancel;
         }
 
-        public virtual void OpenView(GameObject view)
+        public virtual void Cancel()
         {
+
+        }
+
+        public virtual void OpenView(MenuViewBase view)
+        {
+            if (view == null) return;
+
             visitedViews.Push(view);
             ShowView(view);
         }
 
-        internal virtual void ShowQuitModal()
+        public virtual void ShowQuitModal()
         {
             QuitBtn();
         }
 
-        internal virtual void OpenURL(string url)
+        public virtual void OpenURL(string url)
         {
             Application.OpenURL(url);
         }
 
-        internal virtual void CloseView()
+        public virtual void CloseView()
         {
             if (visitedViews.Count > 1)
             {
-                var v = visitedViews.Pop();
+                visitedViews.Pop();
+                var v = visitedViews.Peek();
                 ShowView(v);
             }
             else
@@ -70,11 +78,11 @@ namespace RTDK.MainMenu
             }
         }
 
-        internal virtual void ShowView(GameObject view)
+        public virtual void ShowView(MenuViewBase view)
         {
             foreach (var v in views)
             {
-                view.SetActive(v == view);
+                v.gameObject.SetActive(v == view);
             }
         }
 

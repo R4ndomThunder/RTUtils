@@ -11,7 +11,7 @@ using UnityEngine;
 
 namespace RTDK.Editor.BetterFolders
 {
-    [CreateAssetMenu(fileName = "Folder Icon Manager", menuName = "Scriptables Objects/Folder Manager")]
+    [CreateAssetMenu(fileName = "Folder Settings", menuName = "Scriptable Objects/Folder Settings")]
     public class FolderIconSettings : ScriptableObject
     {
         [Serializable]
